@@ -1,0 +1,43 @@
+.model_title{
+	margin-top: 20px;
+	color: #9a8f8f;
+}
+.model_title span{
+	font-size: 16px;
+	margin-left: 20px;
+	font-weight: 900;
+}
+#content, #sidebar {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#content {
+    margin-top: 11px; 
+}
+.row{
+	border-bottom: 1px solid #ddd;
+}
+.ibox {
+     margin-bottom: 0px; 
+}
+.list_title{
+	font-size: 20px;
+	margin-left: 20px;
+	font-weight: 700;
+	color: #755959;
+	margin-bottom: 20px;
+}
+.fl{
+	float: left;
+}
+.zuo_img{
+	width: 500px;
+	margin-left: 20px;
+}
+.zuo_img img{
+	height: 380px;
+	box-shadow: 0 0 5px 0 #ddd;
+}

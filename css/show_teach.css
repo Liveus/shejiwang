@@ -1,0 +1,314 @@
+/*top*/
+.teach_top{
+	margin-top: 30px;
+	height: 300px;
+	background: url(../images/teach_top1.jpg) center top;
+	background-size: 100% 100%;
+}
+.searchBox{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+.teach_top .topTip {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    width: 706px;
+    margin: 0 auto;
+    text-indent: 10px;
+}
+.teach_top .topTip h3 {
+    text-align: center;
+    color: #3c3c3c;
+    font-size: 24px;
+}
+.teach_top .topTip h3 font {
+    color: #e3ff00;
+    font-size: 30px;
+}
+.search-m {
+    width: 704px;
+    height: 58px;
+    border: 2px #191615 solid;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.search-m .search_div {
+    position: relative;
+    z-index: 10;
+}
+.search-m .input_search {
+    width: 564px;
+    height: 54px;
+    line-height: 54px;
+    font-size: 18px;
+    color: #a8a8a8;
+    text-indent: 16px;
+    outline: none;
+}
+.search-m .sea-but {
+    width: 136px;
+    height: 58px;
+    background: #191615;
+    font-size: 24px;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 58px;
+    text-align: center;
+}
+.search-m .sea-but:hover{
+	background: #332c29;
+}
+.teach_top .keyword-tags {
+    width: 706px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.teach_top .keyword-tags a {
+    color: #6c6c6c;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 28px;
+    padding-right: 13px;
+}
+.teach_top .keyword-tags a:hover {
+    text-decoration: underline;
+}
+/**/
+.show_contain{
+	width: 1240px;
+	margin:0 auto;
+	padding-top: 20px;
+}
+.subnavBox {
+    background: #fafafa;
+    border: 1px solid #ececec;
+    transition: all .2s;
+    position: relative;
+}
+.subnavBox .subnav {
+	width: 1200px;
+    margin: 0 auto;
+    padding: 12px 0;
+}
+.subnav-m .sublist {
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    font-size: 18px;
+    margin-right: 30px;
+    padding: 2px 0;
+}
+.subnav-m .sublist.orderSub {
+    margin-right: 0;
+}
+.subnav-m .sublist.hasReadSub {
+    margin-right: 0;
+}
+.subnav-m .sublist a.navAron {
+    font-size: 18px;
+    color: #3c3c3c;
+    padding: 0 20px;
+    display: block;
+}
+.subnav-m .sublist a.navAron span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    line-height: 15px;
+    border: 1px solid #d4d4d4;
+    border-radius: 3px;
+    font-size: 30px;
+    line-height: 36px;
+    vertical-align: -16px;
+    color: #d4d4d4;
+    margin-left: 10px;
+    transition: all .2s;
+}
+.subnav-m .cateSub .sub-m {
+    width: 230px;
+}
+.subnav-m .leaveSub .sub-m {
+    width: 230px;
+}
+.subnav-m .orderSub .sub-m {
+    width: 117px;
+}
+.sublist:hover .sub-m{
+	display: block;
+}
+.subnav-m .sub-m {
+	display: none;
+    position: absolute;
+    top: 30px;
+    padding-top: 10px;
+    z-index: 7;
+    overflow: visible!important;
+    width: 320px;
+}
+.subnav-m .sublist .tags {
+    padding: 10px 20px 10px;
+    border: 1px #dadada solid;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(218,218,218,.5) 0 0 4px;
+    position: relative;
+    z-index: 8;
+    text-align: left;
+}
+.subnav-m .cateSub .sub-m .tags a {
+    width: 90px;
+}
+.subnav-m .sublist .tags a {
+    font-size: 16px;
+    display: inline-block;
+    text-align: left;
+    width: 90px;
+    line-height: 32px;
+    color: #7c7b7b;
+}
+.subnav-m .sublist .tags a:hover, .subnav .tags a.current {
+    color: #ff6700;
+}
+.subnav-m .sublist .tags i {
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    width: 32px;
+    height: 18px;
+    margin-left: -16px;
+    background: url(../images/triangle.png) no-repeat;
+}
+/*list*/
+.solid {
+    float: left;
+    display: inline;
+    overflow: visible;
+    width: 224px;
+    height: 292px;
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    margin: 0 7.5px 20px 7.5px;
+    position: relative;
+}
+.solid{
+	height: auto;
+}
+.designCntBox .solid:hover, .designListMain .solid:hover {
+    /* box-shadow: 1px 2px 5px #aaaaaa; */
+    border: 1px solid #ff783d;
+    -webkit-transition: border-color .2s ease-in;
+    -moz-transition: border-color .2s ease-in;
+    -ms-transition: border-color .2s ease-in;
+    transition: border-color .2s ease-in;
+}
+.solid .img {
+    width: 224px;
+    height: 144px;
+    overflow: hidden;
+}
+.designInfo .titleTxt {
+    padding: 5px 10px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    width: 205px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    height: 35px;
+}
+.designInfo .titleTxt .original {
+    color: #ff791f;
+    border: 1px solid #ff791f;
+    border-radius: 3px;
+    padding: 0 5px;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.designInfo .titleTxt a {
+    color: #666666;
+}
+.solid .usrInfoBox {
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+    width: 94%;
+    padding: 0 3%;
+    padding-bottom: 8px;
+}
+.designInfo .usrInfoBox {
+    padding: 0 10px 10px;
+}
+.designInfo a.usrInfo {
+    width: 35px;
+    height: 35px;
+    margin: 5px 0;
+}
+.designInfo a.usrInfo img {
+    display: block;
+    border-radius: 50%;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+.usrInfoBox:hover a.usrInfo img {
+    transform: rotate(360deg);
+}
+.designInfo .introTxt {
+    width: 160px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.designCntBox .designInfo .usrName {
+    position: relative;
+    overflow: hidden;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: nowrap;
+    height: 20px;
+}
+.designCntBox .designInfo .usrName a {
+    display: block;
+    font-size: 14px;
+    color: #6c6c6c;
+}
+.designCntBox .introTxt .designTitleInfo {
+    font-size: 12px;
+    color: #bbb;
+    padding-top: 6px;
+}
+.designCntBox .introTxt .designTitleInfo .hotNum {
+    background-position: -212px -1px;
+}
+.designCntBox .introTxt .designTitleInfo span {
+    padding-left: 24px;
+    margin-right: 20px;
+}
+.designCntBox .designInfo .titleTxt a:hover {
+    color: #ff8b3d;
+}
+.designCntBox .introTxt .designTitleInfo .commentNum {
+    background-position: -235px 0px;
+    padding-left: 20px;
+}
+.designCntBox .introTxt .designTitleInfo span font{
+    background: #fff;
+    padding-left: 3px;
+    font-size: 0.8rem;
+}
+.designCntBox .designInfo .usrName a:hover {
+    color: #ff8b3d;
+    text-decoration: underline;
+}
+.introTxt .designTitleInfo .commentNum{
+	background-repeat: no-repeat;
+    background-image: url(../images/comm_icon.png);
+}
+.introTxt .designTitleInfo .hotNum{
+	background-repeat: no-repeat;
+    background-image: url(../images/comm_icon.png);
+}

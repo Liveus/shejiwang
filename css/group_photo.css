@@ -1,0 +1,159 @@
+.contain{
+	width: 1200px;
+	margin: 60px auto 0;
+}
+.group_top{
+	padding: 10px;
+	background:rgba(0,0,0,0.03);
+	margin-top: 80px;
+	color: #666;
+}
+.group_top .information{
+	width: 900px;
+	margin-left: 10px;
+	padding-bottom: 14px;
+	border-bottom: 1px solid #ddd;
+}
+.information h3{
+	margin-top:10px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000;
+}
+.group_top .information >p{
+	font-size: 14px;
+	margin-top:15px;
+}
+.group_top .information >p span{
+	margin-right: 10px;
+}
+.group_top .information >p span b{
+	margin-right: 5px;
+	font-weight: normal;
+	color: #ffb900;
+}
+
+.slider{
+
+}
+.slider img{
+	width: 150px;
+	height: 150px;
+}
+.create_user{
+	color: #333;
+	margin-left: 10px;
+	padding-bottom: 10px;
+}
+.create_user p{
+	font-size: 14px;
+	float: left;
+	margin-right: 15px;
+	margin-top:10px;
+}
+.create_user p span{
+	margin-right:5px;
+	color: #999;
+}
+.group_title{
+	border: 1px solid #f9f9f9;
+	margin-top: 20px;
+	height: 49px;
+	background:#f9f9f9;
+}
+.title >a{
+	display: inline-block;
+    padding: 0 25px;
+    border-top: 3px solid #fcfcfc;
+    height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    color: #282828;
+    border-right: 1px solid #f4f4f4;
+}
+.title >a:hover{
+	background: #fff;
+    border-top: 3px solid #ffb900;
+    font-weight: bold;
+}
+.title >a.select{
+	background: #fff;
+    border-top: 3px solid #ffb900;
+    font-weight: bold;
+}
+.container-fluid {
+    padding: 0px;
+    margin-top: 20px;
+
+}
+.box {
+    width: 282px;
+}
+.group_main{
+	margin-bottom: 50px;
+}
+/*member*/
+.list_user{
+	display: inline-block;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #f4f4f4;
+    float: left;
+    padding: 10px 0 10px 10px;
+}
+.atPerson {
+    padding: 20px 0 0 20px;
+    float: left;
+    width: 410px;
+    line-height: 21px;
+    font-size: 14px;
+}
+.c999 {
+    color: #999;
+}
+.atPersonDes {
+    width: 380px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+a.c4095ce, .c4095ce {
+    color: #4095ce;
+}
+.atImg {
+    float: left;
+    padding-top: 35px;
+}
+.atImg a {
+    margin: 0 10px;
+}
+.add_me{
+	position: absolute;
+    right: 40px;
+    top: 64px;
+}
+.add_me span{
+	display: block;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	background:#76bd3e;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	transition:all 0.5s;
+	border-radius: 5px;
+}
+.add_me span:hover{
+	color: #fff;
+	background:#60f12d;
+}
+.del{
+	font-size: 18px;
+	color: #ddd;
+	position: absolute;
+    right: 10px;
+    top: 4px;
+   	cursor: pointer;
+}

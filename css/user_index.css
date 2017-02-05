@@ -1,0 +1,96 @@
+.user-home-list{
+	position: relative;
+	padding-left: 37px;
+    border-left: 1px solid #d3d7da;
+}
+.user-home-contain{
+	margin-top: 20px;
+}
+.user-home-contain .time{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    margin-left: -64px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #8a8c8f;
+}
+.user-home-contain .time:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 60px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #d0d6d9;
+}
+.user-home-contain{
+	margin-left: 65px;
+}
+.user-home-contain .time b {
+    font-size: 18px;
+    font-weight: normal;
+}
+.user-home-contain .time em {
+    display: block;
+    margin-top: 2px;
+}
+.user-course-list .course-one {
+    padding: 30px 0;
+    position: relative;
+    border-bottom: 1px solid #eff1f0;
+}
+.course-list-img{
+	float: left;
+}
+.course-list-cont {
+    padding-left: 230px;
+}
+.list-cont{
+	margin-top: 20px;
+}
+.course-list-cont h3{
+    position: relative;
+	margin-top: 0;
+	font-size: 1.2rem;
+	font-weight: 900;
+}
+.course-list-cont .list-cont:nth-child(2) span{
+	color: #d21c4c;
+	margin-right: 10px;
+}
+.course-list-cont .list-cont:nth-child(3) span{
+	color: #9ea2a5;
+	margin-right: 20px;
+}
+.course-list-cont .user-more {
+	float: right;
+}
+.course-list-cont .user-more img{
+    cursor: pointer;
+    width: 10px;
+    vertical-align: top;
+    float: right;
+    transition:all 0.5s;
+}
+.div-more{
+    position: absolute;
+    right: 0;
+    width: 100px;
+    border: 1px solid #ddd;
+    display: none;
+}
+.div-more div{
+    font-size: 1rem;
+    background: #fff;
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    cursor: pointer;
+}
+.div-more div:nth-child(1){
+    border-bottom: 1px solid #ddd;
+}

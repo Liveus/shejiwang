@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../font/icomoon.eot?jmcnkq');
+    src:    url('../font/icomoon.eot?jmcnkq#iefix') format('embedded-opentype'),
+        url('../font/icomoon.ttf?jmcnkq') format('truetype'),
+        url('../font/icomoon.woff?jmcnkq') format('woff'),
+        url('../font/icomoon.svg?jmcnkq#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bug:before {
+    content: "\f091";
+}
+.icon-cloud-download:before {
+    content: "\f00b";
+}
+.icon-comment:before {
+    content: "\f02b";
+}
+.icon-heart:before {
+    content: "\2665";
+}
+.icon-light-bulb:before {
+    content: "\f000";
+}
+.icon-home:before {
+    content: "\e900";
+}
+.icon-coin-yen:before {
+    content: "\e93e";
+}
+.icon-bubbles3:before {
+    content: "\e96f";
+}
+.icon-play3:before {
+    content: "\ea1c";
+}
+

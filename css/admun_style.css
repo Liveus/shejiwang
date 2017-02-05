@@ -1,0 +1,132 @@
+li,ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+.ibox {
+    clear: both;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding: 0;
+}
+.ibox-title {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #ffffff;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 4px 0px 0;
+    color: inherit;
+    margin-bottom: 0;
+    padding: 14px 15px 7px;
+    min-height: 48px;
+}
+.ibox-title h5 {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 0 7px;
+    padding: 0;
+    text-overflow: ellipsis;
+    float: left;
+}
+.ibox-content {
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0px;
+}
+.ibox-content {
+    clear: both;
+}
+.text-success {
+    color: #1c84c6;
+}
+.font-bold {
+    font-weight: 600;
+}
+.stat-percent {
+    float: right;
+}
+.small, small {
+    font-size: 85%;
+}
+.col-lg-3{
+	border-bottom: 1px solid #DDD;
+}
+#wrapper {
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    border: 1px solid rgba(0,0,0,0.2);
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    border-top-right-radius: 0;
+    -webkit-box-shadow: 0 0 0 2px rgba(0,0,0,0.04);
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.04);
+    overflow: hidden;
+}
+body.main {
+    padding: 10px 20px 0px 20px;
+    background-color: #fff; 
+}
+
+.list-ul{
+    box-sizing:border-box;
+
+}
+.list-li{
+    box-sizing:border-box;
+    padding-left: 20px;
+    width: 340px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    
+  /*  border-bottom: 1px solid  #ddd;*/
+}
+.list-li a{
+    float: left;
+    width: 250px;
+    display: inline;
+    margin-right: 8px;
+    margin-left: 8px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.list-li span{
+    width: 35px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline;
+    float: left;
+    font-size: 20px;
+    color:#333;
+}
+.list-li.one span{
+    color:#fff;
+    background: url(../images/8.png) no-repeat;
+    background-position: -66.6px 0; 
+}
+.list-li.two span{
+    color:#fff;
+    background: url(../images/8.png) no-repeat;
+    background-position: 0 0; 
+}
+.list-li.three span{
+    color:#fff;
+    background: url(../images/8.png) no-repeat;
+    background-position: -33.3px 0; 
+}
+.border-right{
+    border-right: 1px solid #ddd;
+}

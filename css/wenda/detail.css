@@ -1,0 +1,201 @@
+.contain{
+	padding-top: 40px;
+	width: 1200px;
+	margin: 60px auto 0;
+}
+.wenda-main {
+    width: 840px;
+    padding: 0 0 20px 0;
+    margin-right: 20px;
+}
+.detail-user{
+    margin-bottom: 20px;
+}
+.detail-provider {
+    color: #0088cc;
+    font-size: 12px;
+    padding: 2px 4px 2px 5px;
+    background-color: #e5f3fa;
+}
+.qa-author{
+    font-weight: 700;
+}
+.detail-user-tips .qa-author {
+    font-size: 14px;
+    color: #787d82;
+    margin: 0 2px 0 6px;
+}
+.detail-user-tips .qa-author:hover {
+    color: #f01400;
+}
+.ans_num {
+    color: #b5b9bc;
+    font-size: 18px;
+    margin-top: 21px;
+    line-height: 58px;
+    border-bottom: 1px solid #d0d6d9;
+}
+.ans_num {
+    color: #b5b9bc;
+    font-size: 18px;
+    margin-top: 21px;
+    line-height: 58px;
+    border-bottom: 1px solid #d0d6d9;
+}
+.ques-answer {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #d0d6d9;
+}
+.ques-answer .answer-con {
+    margin-top: 24px;
+    border-top: 1px solid #edf1f2;
+    padding-bottom: 46px;
+    position: relative;
+}
+.ques-answer .answer-con.first {
+    margin-top: 0;
+    border: 0 none;
+}
+.ques-answer .user-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.ques-answer .user-pic a {
+    display: block;
+    height: 100%;
+}
+.ques-answer .user-pic img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.detail-ci-avator .detail-r, .answer-con .detail-r {
+    margin: 0 0 10px 50px;
+}
+.detail-r .time {
+    float: right;
+    color: #b5b9bc;
+    font-size: 12px;
+    margin-top: 12px;
+}
+.detail-ci-avator .detail-name, .answer-con .detail-name {
+    color: #14191e;
+    font-size: 14px;
+}
+.detail-ci-avator .detail-signal, .answer-con .detail-signal {
+    color: #b5b9bc;
+    font-size: 12px;
+    height: 18px;
+}
+.ques-answer .answer-con .answer-content, .ques-answer .answer-con .answer-content-all {
+    color: #14191e;
+    line-height: 28px;
+    font-size: 14px;
+    margin-top: 2px;
+    word-break: break-all;
+    overflow: hidden;
+}
+.answer-con .answer-content {
+    padding-left: 50px;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+.answer-con .answer-content *:not(code) {
+    color: #14191e !important;
+    line-height: 1.6em !important;
+    font-size: 14px !important;
+}
+.ques-answer .answer-con .ctrl-bar {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 9;
+}
+.ques-answer .answer-con .ctrl-bar .agree-with {
+    display: inline-block;
+    height: 24px;
+    border: 1px solid #d0d6d9;
+    padding: 0 9px;
+}
+.ques-answer .answer-con .ctrl-bar span {
+    line-height: 24px;
+    font-size: 12px;
+    color: #787d82;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.ques-answer .answer-con .ctrl-bar .agree-with:hover {
+    color: #14191e;
+    border-color: #787d82;
+}
+/*right*/
+.wenda-slider {
+    width: 280px;
+}
+.quiz a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    background-color: #f01400;
+    color: #fff;
+    height: 56px;
+    line-height: 56px;
+    border: 2px solid #f01400;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.panel {
+    /*-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
+/*    padding: 0 20px;*/
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+.panel-heading {
+    border-bottom: solid 1px #d0d6d9;
+}
+.panel-title {
+    height: 58px;
+    line-height: 58px;
+    font-size: 16px;
+}
+.about-ques .panel-body {
+    padding: 15px 0 5px;
+}
+.mkhotlist {
+    border-bottom: 1px solid #edf1f2;
+    padding: 20px 0 20px 10px;
+    line-height: 18px;
+    color: #99a1a6;
+    word-break: break-all;
+    white-space: pre-wrap;
+    overflow: hidden;
+    position: relative;
+    font-size: 14px;
+}
+.about-ques .mkhotlist {
+    padding: 9px 0 10px;
+    border: 0 none;
+    line-height: 21px;
+}
+.about-ques .mkhotlist {
+    white-space: normal;
+}
+.about-ques .mkhotlist .relwenda {
+    color: #14191e;
+}
+.about-ques .mkhotlist .answer-num {
+    color: #b5b9bc;
+    font-size: 12px;
+    margin-left: 6px;
+    font-style: normal;
+    display: inline-block;
+}

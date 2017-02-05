@@ -1,0 +1,78 @@
+
+{
+    "imageActionName": "uploadimage",
+    "imageFieldName": "upfile",
+    "imageMaxSize": 2048000, 
+    "imageAllowFiles": [".png", ".jpg", ".jpeg", ".gif", ".bmp"], 
+    "imageCompressEnable": true, 
+    "imageCompressBorder": 1600, 
+    "imageInsertAlign": "none", 
+    "imageUrlPrefix": "http://localhost:8000/media2/",
+    "imagePathFormat": "/Question/pic/{time}{rand:6}",
+    
+    "scrawlActionName": "uploadscrawl", 
+    "scrawlFieldName": "upfile",
+    "scrawlPathFormat": "/Question/pic/{time}{rand:6}",
+    "scrawlMaxSize": 2048000, 
+    "scrawlUrlPrefix": "http://localhost:8080/media1/", 
+    "scrawlInsertAlign": "none",
+    
+    "snapscreenActionName": "uploadimage",
+    "snapscreenPathFormat": "/Question/pic/{time}{rand:6}", 
+    "snapscreenUrlPrefix": "http://localhost:8080/media1/", 
+    "snapscreenInsertAlign": "none",
+    
+    "catcherLocalDomain": ["127.0.0.1", "localhost", "img.baidu.com"],
+    "catcherActionName": "catchimage", 
+    "catcherFieldName": "source", 
+    "catcherPathFormat": "/Question/pic/{time}{rand:6}",
+    "catcherUrlPrefix": "http://localhost:8080/media1/", 
+    "catcherMaxSize": 2048000, 
+    "catcherAllowFiles": [".png", ".jpg", ".jpeg", ".gif", ".bmp"], 
+
+ 
+    "videoActionName": "uploadvideo", 
+    "videoFieldName": "upfile",
+    "videoPathFormat": "/Question/video/{time}{rand:6}",
+    "videoUrlPrefix": "http://localhost:8000/media2/", 
+    "videoMaxSize": 102400000,
+    "videoAllowFiles": [
+        ".flv", ".swf", ".mkv", ".avi", ".rm", ".rmvb", ".mpeg", ".mpg",
+        ".ogg", ".ogv", ".mov", ".wmv", ".mp4", ".webm", ".mp3", ".wav", ".mid"],
+
+
+    "fileActionName": "uploadfile",
+    "fileFieldName": "upfile", 
+    "filePathFormat": "/Question/file/{time}{rand:6}", 
+    "fileUrlPrefix": "http://localhost:8080/media1/",
+    "fileMaxSize": 51200000, 
+    "fileAllowFiles": [
+        ".png", ".jpg", ".jpeg", ".gif", ".bmp",
+        ".flv", ".swf", ".mkv", ".avi", ".rm", ".rmvb", ".mpeg", ".mpg",
+        ".ogg", ".ogv", ".mov", ".wmv", ".mp4", ".webm", ".mp3", ".wav", ".mid",
+        ".rar", ".zip", ".tar", ".gz", ".7z", ".bz2", ".cab", ".iso",
+        ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".txt", ".md", ".xml"
+    ],
+
+
+    "imageManagerActionName": "listimage",
+    "imageManagerListPath": "/Question/pic/",
+    "imageManagerListSize": 20, 
+    "imageManagerUrlPrefix": "http://localhost:8080/media1/", 
+    "imageManagerInsertAlign": "none", 
+    "imageManagerAllowFiles": [".png", ".jpg", ".jpeg", ".gif", ".bmp"],
+
+
+    "fileManagerActionName": "listfile", 
+    "fileManagerListPath": "/Question/file/",
+    "fileManagerUrlPrefix": "http://localhost:8080/media1/", 
+    "fileManagerListSize": 20, 
+    "fileManagerAllowFiles": [
+        ".png", ".jpg", ".jpeg", ".gif", ".bmp",
+        ".flv", ".swf", ".mkv", ".avi", ".rm", ".rmvb", ".mpeg", ".mpg",
+        ".ogg", ".ogv", ".mov", ".wmv", ".mp4", ".webm", ".mp3", ".wav", ".mid",
+        ".rar", ".zip", ".tar", ".gz", ".7z", ".bz2", ".cab", ".iso",
+        ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".pdf", ".txt", ".md", ".xml"
+    ] 
+
+}

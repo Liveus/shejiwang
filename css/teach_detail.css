@@ -1,0 +1,329 @@
+ .wrapepr {
+    width: 1200px;
+    margin: 0 auto;
+}
+.teach_top{
+	margin-top: 20px;
+	height: 230px;
+	background: url(../images/teach_detail1.jpg);
+	background-size: 100%;
+}
+.teach_top .postion {
+	padding-top:40px;
+	width: 1200px;
+    margin: 0 auto;
+    line-height: 50px;
+    color: #bbafaf;
+    font-size: 18px;
+    white-space: nowrap;
+}
+.teach_top .postion a {
+	color: #bbafaf;
+    font-size: 18px;
+}
+.teach_top .tit {
+    height: 90px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.teach_top .tit h1 {
+    float: left;
+    font-size: 30px;
+    text-indent: 20px;
+    line-height: 90px;
+    color: #d21c4c;
+    height: 90px;
+    overflow: hidden;
+    width: 510px;
+    position: relative;
+}
+.user_info {
+    padding: 0 20px;
+    width: 280px;
+    float: left;
+    color: #7c7b7b;
+    border-right: 1px solid #f3f3f3;
+    border-left: 1px solid #f3f3f3;
+    height: 90px;
+}
+.user_info dt b {
+    color: #d21c4c;
+}
+.user_info dl {
+    margin-top: 20px;
+}
+.user_info dd {
+    float: left;
+    margin-right: 10px;
+}
+.user_info .dsHomeAvator {
+    position: relative;
+    height: 42px;
+    width: 42px;
+    overflow: hidden;
+    display: block;
+    border-radius: 50%;
+}
+.user_info .dsHomeAvator img{
+	display: inline;
+}
+.user_info dt {
+    font-size: 14px;
+    line-height: 21px;
+    width: 220px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.show_con .dsHomeLink {
+    font-size: 14px;
+    color: #ff8b3d;
+}
+.user_info dt {
+	color: #bbafaf;
+    font-size: 14px;
+    line-height: 21px;
+    width: 220px;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.user_rq {
+    float: left;
+    width: 150px;
+    padding: 20px 10px;
+    font-size: 18px;
+    color: #bbafaf;
+}
+.user_rq b {
+    color: #d21c4c;
+    font-size: 36px;
+}
+.socialBox {
+    width: 725px;
+    margin: 0 auto;
+    zoom: 1;
+    clear: both;
+    padding-bottom: 5px;
+}
+.socialBox.praiseBox .Praise {
+    margin: 0 auto;
+    float: left;
+    display: inline;
+}
+.socialBox.praiseBox .Praise .zan_input{
+	width: 285px;
+	height: 70px;
+	border-radius: 50px;
+	background: #ffb537;
+	text-align: center;
+	line-height: 70px;
+	font-size: 2.2rem;
+	cursor:pointer;
+	color: #fff;
+}
+.socialBox.praiseBox .Praise .xiazai{
+	height: 70px;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 70px;
+	font-size: 2.2rem;
+	cursor:pointer;
+	width: 215px;
+	background: #AD884A;
+	margin-left:20px;
+	
+}
+.socialBox.praiseBox .Praise .xiazai a {
+    color: #fff;
+}
+.Praise .Praise_text {
+    text-align: center;
+    line-height: 40px;
+    clear: both;
+}
+.Tread .Tread_text {
+    text-align: center;
+    line-height: 40px;
+    clear: both;
+}
+.juhong {
+    color: #ea5500;
+}
+.Tread {
+    height: 110px;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+}
+.Tread .cai_input{
+	width: 185px;
+	height: 70px;
+	border-radius: 50px;
+	background: #378aff;
+	text-align: center;
+	line-height: 70px;
+	font-size: 2.2rem;
+	cursor:pointer;
+	color: #fff;
+}
+.bigImg {
+    margin: 10px auto;
+   /* background: url(../../images/taobaoDesign/showBg.jpg);*/
+    text-align: center;
+    display: block;
+    width: 1024px;
+}
+.bigImg img{
+	max-width: 100%;
+}
+.shop_c {
+    background: #fff;
+    text-align: center;
+    padding: 20px 0;
+    color: #777;
+}
+.shop_c .shop_cc {
+    text-align: left;
+    padding: 10px 25px;
+}
+.newsDesign {
+    padding: 10px 20px;
+    border-top: 1px solid #f3f3f3;
+    clear: both;
+    zoom: 1;
+}
+.newsDesign .designListBox {
+    padding: 20px 0 25px;
+    overflow: hidden;
+    clear: both;
+    zoom: 1;
+}
+.newsDesign .designListBox .designList {
+    overflow: hidden;
+    zoom: 1;
+}
+.newsDesign .designListBox .designList .designLink {
+    display: block;
+    margin-right: 25px;
+    width: 141px;
+    height: 90px;
+    overflow: hidden;
+}
+.newsDesign .designListBox a.getMore {
+    display: block;
+    height: 90px;
+    width: 141px;
+    line-height: 90px;
+    color: #959595;
+    text-align: center;
+    background: #f1f1f1;
+    font-size: 24px;
+}
+.newsDesign .designListBox a.getMore:hover{
+	background: #f00;
+	color: #fff;
+}
+.comment .comment_input .pl_tit {
+    color: #474747;
+    margin-bottom: 20px;
+    font-size: 24px;
+    position: relative;
+}
+.comment .comment_input textarea {
+    width: 98%;
+    height: 110px;
+    font-size: 14px;
+    resize: none;
+    padding: 1%;
+}
+.commentBox {
+    margin: 10px auto;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+}
+.commentBox .disable {
+	width: 250px;
+    cursor: default;
+    background: #c8c8c8;
+    display: block;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+.comment .comment_list h4 {
+    color: #777;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #f3f3f3;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+#comment_lists {
+    margin-bottom: 20px;
+}
+/*list-comment*/
+.comment_list_a {
+    border-bottom: 1px solid #f3f3f3;
+    clear: both;
+    padding: 15px;
+    font-size: 14px;
+    color: #777;
+    zoom: 1;
+    position: relative;
+}
+.comment_list_a .cmAvatar {
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+}
+.dsHomeAvator {
+    position: relative;
+    height: 42px;
+    width: 42px;
+    overflow: hidden;
+    display: block;
+    border-radius: 50%;
+}
+.comment_list_a .cmInfo {
+    width: 1100px;
+    padding-left: 10px;
+}
+.comment_list_a .cnHeader {
+    overflow: hidden;
+    padding-bottom: 5px;
+}
+.cnHeader .cmName, .cnHeader .cmOption a, .cmRepBox .cmRepName span {
+    color: #ff8b3d;
+}
+.show_con .dsHomeLink {
+    font-size: 14px;
+    color: #ff8b3d;
+}
+.cnHeader div {
+    padding-right: 10px;
+}
+.cnHeader .cmFloor {
+    color: #ea5500;
+    font-size: 18px;
+}
+.cmContent {
+    line-height: 24px;
+    overflow: hidden;
+}
+.edui-upload-video{
+    width: 700px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+}
+.shop_c img{
+    display: block;
+    margin: 0 auto;
+}

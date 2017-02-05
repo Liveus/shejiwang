@@ -1,0 +1,77 @@
+.current-status {
+    position: relative;
+    padding: 30px;
+    background-color: #F3F3F3;
+    margin-top: 30px;
+}
+.current-status h3 {
+    height: 20px;
+    text-align: left;
+}
+h3 {
+    font-size: 16px;
+    line-height: 32px;
+}
+.current-status h3 span {
+    font-size: 18px;
+    line-height: 20px;
+    color: #14191e;
+}
+.current-status h3 a {
+    font-size: 14px;
+    line-height: 16px;
+    color: #b5b9bc;
+    margin-left: 10px;
+}
+.current-status p {
+    font-size: 48px;
+    line-height: 50px;
+    color: #ff7802;
+    margin-top: 20px;
+}
+.current-status .link-box {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+.current-status .link-box span {
+    font-size: 18px;
+    color: #787d82;
+    line-height: 20px;
+    text-align: left;
+}
+.current-status .link-box a {
+    font-size: 18px;
+    color: #ff7802;
+    line-height: 20px;
+    text-align: left;
+}
+.credit-list {
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+.credit-list .title {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d0d6d9;
+}
+.credit-list .title h3 {
+    float: left;
+    height: 20px;
+    font-size: 14px;
+    color: #787d82;
+    line-height: 20px;
+}
+.credit-list .title p {
+    float: right;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #b5b9bc;
+}
+.nodata {
+    height: 420px;
+    line-height: 420px;
+    text-align: center;
+    font-size: 18px;
+    color: #b5b9bc;
+}

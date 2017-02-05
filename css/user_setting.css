@@ -1,0 +1,203 @@
+body {
+    min-width: 1200px;
+    background-color: #edeff0;
+}
+.user_setting .top {
+    width: 100%;
+    height: 160px;
+    background: url(../images/user_setting.png) no-repeat center;
+    background-size: cover;
+}
+.user_setting .top .top_title {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 120px;
+    width: 960px;
+    margin:0 auto;
+}
+.page-settings .top .top_title p {
+    padding-left: 30px;
+}
+.user_setting .setting {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+    width: 960px;
+    height: 780px;
+    margin: auto;
+    margin-top: -40px;
+    overflow: hidden;
+}
+.user_setting .setting .active {
+    color: #f01414 !important;
+    border-bottom: 2px solid #f01414;
+}
+.user_setting .setting .countinfo, .user_setting .setting .baseinfo {
+    font-size: 16px;
+    color: #4d555d;
+    height: 58px;
+    margin-top: 10px;
+    line-height: 58px;
+    margin-right: 50px;
+    z-index: 5;
+}
+.user_setting .setting .baseinfo {
+    margin-left: 32px;
+}
+.user_setting .setting .contentBox {
+    width: 896px;
+    margin: auto;
+    border-top: 1px solid #b7bbbf;
+    position: relative;
+    top: 69px;
+    padding-top: 28px;
+}
+.user_setting  .setting .contentBox .formBox {
+    width: 520px;
+    margin: auto;
+}
+.setting-profile {
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+.setting-profile .wlfg-wrap .label-name {
+    float: left;
+    width: 70px;
+    text-align: right;
+    height: 40px;
+    line-height: 40px;
+    color: #07111b;
+    font-weight: bold;
+    font-size: 14px;
+}
+.setting-profile .wlfg-wrap .rlf-group {
+    float: left;
+    width: 410px;
+    margin-left: 8px;
+    color: #60686b;
+}
+.moco-form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #787d82;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+.errorHint {
+    height: 25px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #f01414;
+}
+.moco-form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+.setting-profile .wlfg-wrap .profile-address select {
+    float: left;
+    margin-right: 10px;
+    width: 130px;
+    height: 40px;
+}
+.setting-profile .wlfg-wrap .rlf-group {
+    float: left;
+    width: 410px;
+    margin-left: 8px;
+    color: #60686b;
+}
+.setting-profile .wlfg-wrap .profile-address .mr0 {
+    margin-right: 0;
+}
+.setting-profile .wlfg-wrap .rlf-radio-group {
+    max-width: 402px;
+    padding-left: 10px;
+}
+.setting-profile .wlfg-wrap .rlf-group {
+    float: left;
+    width: 410px;
+    margin-left: 8px;
+    color: #60686b;
+}
+.setting-profile .wlfg-wrap .rlf-radio-group label {
+    margin-right: 26px;
+    line-height: 40px;
+}
+.setting-profile .wlfg-wrap .rlf-radio-group input[type=radio] {
+    margin-right: 10px;
+}
+.setting-profile .wlfg-wrap .rlf-group {
+    float: left;
+    width: 410px;
+    margin-left: 8px;
+    color: #60686b;
+}
+.noresize {
+    resize: none;
+}
+textarea.moco-form-control {
+    height: auto;
+}
+#preview{
+	width:150px;
+	height:150px;
+	overflow:hidden;
+}
+#imghead {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=image);
+}
+.setting-profile .wlfg-wrap .profile-btn {
+    display: block;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    width: 96px;
+    height: 40px;
+}
+.setting-profile .wlfg-wrap .rlf-btn-green {
+    background-color: #00b33b;
+    border-radius: 2px;
+}
+#fileon{
+	z-index: 100;
+	height: 40px;
+	display: block;
+	float:left;
+	position: absolute;
+    left: 100px;
+    top: 161px;
+	opacity: 0;
+}
+.wlfg-wrap{
+	position: relative;
+}
+.uploadhead{
+	display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    width: 96px;
+    height: 40px;
+    background-color: #00b33b;
+    border-radius: 2px;
+    position: absolute;
+    left: 100px;
+    top: 161px;
+    z-index: 1;
+}
+.h100{
+	height: 220px;
+}

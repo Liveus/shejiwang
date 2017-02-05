@@ -1,0 +1,137 @@
+/*user*/
+.user-title{
+	height:300px;	
+	background: url(../images/user-mid.jpg);
+	background-size: 100% 100%;
+}
+.contain{
+	color: #fff;
+	width: 86%;
+	margin:0 auto;
+	padding-top: 115px;
+}
+.user-infor-left{
+	float: left;
+}
+.user-infor-right{
+	float: right;
+}
+.user-infor-img{
+	position: relative;
+}
+.user-infor-img img:nth-child(2){
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	border:3px solid #6c6b6b;
+}
+.user-setting{
+	position: absolute;
+	top:-1%;
+	left: -1%;
+}
+.user-infor-left:nth-child(2){
+	margin-left: 30px;
+}
+h3{
+	margin-top: 20px;
+	font-size: 1.6rem;
+	font-weight: 500;
+}
+.user-infor-left:nth-child(2) p{
+	margin-top: 18px;
+}
+.user-infor-content{
+	color: #6f6f6f;
+}
+.user-look{
+	margin-left: 20px;
+	float: right;
+}
+.user-infor-right{
+	margin-top: 58px;
+}
+.user-infor-right p{
+	margin-top: 12px;
+}
+.user-look p:nth-child(1){
+	font-size: 1.4rem;
+}
+.user-look p:nth-child(2){
+	color:  #6f6f6f;
+}
+.user-inter span{
+	margin-left: 12px;
+}
+.user-inter img{
+	margin-top: 2px;
+}
+/**********/
+/*user-home*/
+.user-home{
+	width: 1200px;
+	margin:0 auto;
+}
+.user-nav{
+	float: left;
+}
+.user-home-content{
+	float: left;
+
+}
+.user-nav ul li {
+    height: 60px;
+    border-bottom: 1px solid #EDF1F2;
+    width: 200px;
+    margin: 0 auto;
+}
+.user-nav ul a {
+    display: block;
+    height: 60px;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #787d82;
+}
+.user-nav ul a i {
+    position: relative;
+    left: -25px;
+    top: 3px;
+    font-size: 18px;
+}
+.user-nav ul a b {
+    position: relative;
+    top: 0px;
+    right: -45px;
+    font-size: 0.5rem;
+}
+.user-nav ul a:hover {
+    color: #14191e;
+}
+.user-nav ul a.active {
+    color: #F01400;
+}
+.user-home-content{
+	margin-left: 60px;
+	width: 76%;
+}
+.user-home-title{
+	line-height: 70px;
+	border-bottom: 1px solid #ddd;
+}
+.user-home-type{
+	float: left;
+	font-size: #ddd;
+	margin-right: 30px;
+}
+.user-home-type:hover{
+	color: #f00;
+	border-bottom: 1px solid #f00;
+}
+.user-click{
+	color: #f00;
+	border-bottom: 1px solid #f00;
+}
+.user-home-course{
+	float: right;
+}

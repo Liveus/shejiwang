@@ -1,0 +1,110 @@
+.user-home-type:hover {
+    color: #000;
+    border-bottom: 0px;
+}
+/*content*/
+.user-home-contain .item {
+    position: relative;
+    width: 960px;
+    border-bottom: 1px solid #CFD5D8;
+    padding: 30px 0px;
+}
+.user-head img{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+}
+.user-home-contain .content{
+	width: 900px;
+	float: right;
+}
+.user-home-contain .head{
+	margin-bottom: 16px;
+    width: 100%;
+}
+.user-home-contain .content .head .i-name{
+	color: #4d555d;
+    font-size: 14px;
+    font-weight: bold;
+}
+.user-home-contain .content .head .i-time{
+	color: #93999f;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 10px;
+}
+.user-home-contain .content .head .i-title{
+    font-size: 16px;
+    color: #07111b;
+    line-height: 16px;
+    margin-top: 20px;
+}    
+.user-home-contain .body{
+	height: 125px;
+	background: #F2F4F6;
+}
+.user-home-contain .body img{
+	height: 125px;
+}
+.user-home-contain .body .sub-content{
+	padding-top: 24px;
+    width: 100%;
+    float: right;
+    line-height: 30px;
+    color: #4C545C;
+    width: 650px;
+    font-size: 0.9rem;
+}
+.user-home-contain .body .sub-content .sub-title{
+	color: #4d555d;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 35px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.user-home-contain .body .sub-content .sub-describe span{
+	margin-right: 10px;
+}
+.user-home-contain .body .sub-content .sub-detail{
+	height: 30px;
+    width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.user-home-contain .body .group-content-1{
+    padding-top: 24px;
+    float: right;
+    line-height: 30px;
+    color: #4C545C;
+    width: 630px;
+}
+.user-home-contain .body .group-content-2{
+    padding-top: 24px;
+    float: right;
+    line-height: 30px;
+    color: #4C545C;
+    width: 100px;
+}
+.user-home-contain .body .group-content-2 .joined{
+    padding: 2px;
+    border:1px solid #5a4545;
+    width: 75px;
+    text-align: center;
+    color: #fff;
+    background: #5a4545;
+}
+.user-home-contain .body .group-content-2 .joining{
+    padding: 2px;
+    border:1px solid #5a4545;
+    width: 60px;
+    text-align: center;
+}
+.user-home-contain .body .group-content-1 .group-title{
+    color: #4d555d;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 35px;
+    white-space: nowrap;
+    overflow: hidden;
+}

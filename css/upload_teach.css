@@ -1,0 +1,148 @@
+.contain{
+	padding-top: 60px;
+    width: 1200px;
+    overflow: hidden;
+    background: #fff;
+    margin: 0 auto;
+}
+
+.upload_title{
+    height: 70px;
+    overflow: hidden;
+    border-bottom: 1px solid #f3f3f3;
+}
+.inputbox,.upload_title{
+	padding: 0 30px;
+}
+.title_box{
+    line-height: 70px;
+}
+.title_box h3 {
+    font-weight: normal;
+    color: #474747;
+    font-size: 30px;
+}
+/*content*/
+.inputbox .content_input{
+    color: #777777;
+    margin: 25px 0;
+    overflow: hidden;
+}
+.content_input .content_div.input_label{
+	width: 100px;
+}
+.content_input .content_div {
+    float: left;
+    display: inline-block;
+    line-height: 40px;
+    padding-right: 10px;
+}
+.inputbox .content_input .input_text {
+    line-height: 35px;
+    background: none;
+    color: #939393;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    width: 380px;
+    height: 35px;
+    border: 1px solid #f0f0f0;
+    padding-left: 5px;
+    margin: 0;
+}
+.inputbox .content_input textarea.input_shuomin {
+    width: 830px;
+    height: 100px;
+    resize: none;
+    padding: 10px;
+    text-indent: 0;
+    margin-top: 10px;
+}
+.inputbox .content_input a.input_kid_radio {
+	border-radius: 4px;
+    margin-right: 15px;
+    display: block;
+    border: 1px solid #e7e7e7;
+    font-size: 18px;
+    line-height: 40px;
+    padding: 1px 25px;
+    position: relative;
+    transition:all 0.5s;
+}
+.inputbox .content_input a.input_kid_radio.current{
+	background: #3498db;
+   /* border: 1px solid #ff8b3d;*/
+    color: #fff;
+}
+.inputbox .content_input a.input_kid_radio span{
+	background: url(../images/input-checked.png) no-repeat;
+    width: 21px;
+    height: 19px;
+    display: block;
+    position: absolute;
+    /*left: 5px;
+    top: 13px;*/
+    right: 0;
+    top:1px;
+}
+.inputbox .content_input a.input_kid_radio.current:hover{
+	background: #72c5fd;
+   /* border: 1px solid #ff8b3d;*/
+    color: #fff;
+}
+.uploadBtnBox{
+	float: left;
+    display: inline-block;
+    line-height: 40px;
+    padding-right: 10px;
+    overflow: hidden;
+}
+.inputbox .uploadBtnBox span.uploadBtn {
+    background: #3498db;
+    color: white;
+    cursor: pointer;
+    line-height: 44px;
+    width: 122px;
+    height: 44px;
+    text-align: center;
+    display: block;
+}
+.inputbox .uploadBtnBox span {
+    float: left;
+    display: inline;
+}
+.inputbox .uploadBtnBox .uploadTip {
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 22px;
+    /*margin-top: 20px;*/
+}
+.uploadBtnBox .uploadTip font {
+    color: #ee804a;
+}
+.upload_contant .submitBtnBox {
+    padding: 40px;
+    position: relative;
+    border-top: 1px solid #f3f3f3;
+    text-align: center;
+}
+.upload_contant .submitBtnBox input.submitBtn {
+    display: block;
+    width: 280px;
+    height: 70px;
+    text-align: center;
+    color: white;
+    line-height: 70px;
+    margin: 0 auto;
+    font-size: 28px;
+}
+.webuploader-element-invisible {
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px,1px,1px,1px);
+    opacity: 0;
+}
+.inputbox .content_input .input_text.content_number{
+    width: 100px;
+}
+#editor{
+    margin-left: 110px;
+}

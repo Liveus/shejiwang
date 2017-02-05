@@ -1,0 +1,131 @@
+.show_top{
+	width: auto;
+	height: 200px;
+	margin-top: 60px;
+	background: url(../images/show_index.jpg);
+	background-size: 100% 100%; 
+}
+.show_contain{
+	width: 1200px;
+	margin:0 auto;
+	padding-top: 20px;
+}
+.show_left{
+	float: left;
+}
+.show_left ul li {
+    height: 60px;
+    border-bottom: 1px solid #EDF1F2;
+    width: 200px;
+    margin: 0 auto;
+}
+.show_left ul a {
+    display: block;
+    height: 60px;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #787d82;
+}
+.show_left ul a:hover {
+    color: #14191e;
+}
+.show_left ul a.active {
+    color: #F01400;
+}
+.show_left ul a b {
+    position: relative;
+    top: 0px;
+    right: -45px;
+    font-size: 0.5rem;
+}
+/*showright*/
+.show_right{
+	width: 1200px;
+	float: right;
+}
+.show_right .showtitle{
+	border-bottom:1px solid #ddd;
+}
+.showtitle .ul_show .li_show{
+    border-top:1px solid #fff;
+	color: #787d82;
+	width: 150px;
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+    position: relative;
+}
+.border-top{
+    border-top:1px solid #f00;
+}
+.showtitle .ul_show .li_show span{
+    font-size: 30px;
+    line-height: 24px;
+    color: #a5a5a5;
+    vertical-align: -16px;
+    padding-left: 10px;
+}
+.showcontent{
+	margin-top: 20px;
+	margin-left: -20px;
+}
+.showshow{
+    width: 150px;
+    position: absolute;
+    top:60px;
+    display: none;
+}
+.showshow li{
+    width: 110px;
+    height: 40px;
+    padding:0 20px;
+    border:1px solid #dfd;
+    background: #fff;
+    line-height: 40px;
+}
+/*item*/
+.item-list{
+	border:1px solid #ddd;
+	width: 588px;
+	float: left;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	transition:all 0.5s ;
+}
+.item-list:hover{
+	border:1px solid #af7901;
+	box-shadow: 0px 0px 5px 0px #af7901;
+}
+.item-list img{
+	width: 100%;
+}
+.box-list{
+    display: block;
+    height: 200px;
+    overflow: hidden;
+}
+.item-list .item-name{
+	height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+}
+.item-name .title{
+    font-size: 18px;
+    color: #7c7b7b;
+    max-width: 380px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline;
+}
+.item-name .activepro {
+    line-height: 50px;
+    color: #bfbfbf;
+    font-size: 12px;
+    display: inline;
+}
+.item-name .activepro .backDnum {
+    padding-left: 22px;
+    background: url(../images/sucai-down-icon.png) no-repeat 0 center;
+}
