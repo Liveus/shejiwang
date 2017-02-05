@@ -257,10 +257,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			}
 		});
 		headroom.init();
-		//
 	</script>
 	<script src="js/src/model.js"></script>
-	<script src="js/src/user.js"></script>
+	<!-- <script src="js/src/user.js"></script> -->
 	<script src="js/src/public.js"></script>
 	<script src="js/src/photo_index.js"></script>
 	<script src="load/js/modernizr.custom.js"></script>

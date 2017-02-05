@@ -246,7 +246,7 @@ var headroom = new Headroom(elem, {
 });
 headroom.init();
 </script>
-<script src="js/src/user_look.js"></script>
+<script src="js/src/user.js"></script>
 <script src="js/src/public.js"></script>
 </body>
 </html>

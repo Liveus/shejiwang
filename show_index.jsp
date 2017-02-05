@@ -190,13 +190,9 @@ var headroom = new Headroom(elem, {
 });
 headroom.init();
 </script>
-<script type="text/javascript" src="js/lib/jquery.pagination.js"></script>
+
 <script src="js/src/public.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-	$("#Pagination").pagination("15");
-});
-</script>
+
  <script type="text/javascript"  src="js/src/show_index.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-﻿(function(){
+﻿;(function(){
 	$(".del").each(function(){
 		var data = $(this).attr("value");
 		$(this).click(function(){

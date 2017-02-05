@@ -142,7 +142,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				 		<li class="course-one clear">
 				 			<div class="course-list-img">
 				 				<a href="show.onework?id=<%=work.getId()%>">
-				 					<img src="<%=basePath %>/work/pic/<%=work.getEmail() %>/<%=work.getPath() %>" width="200" height="100">
+				 					<img src="<%=basePath %>/work/pic/<%=work.getEmail() %>/<%=work.getPath() %>" >
 				 				</a>
 				 			</div>
 				 			<div class="course-list-cont">

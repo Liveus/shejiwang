@@ -1,4 +1,4 @@
-(function(){
+;(function(){
 	$(".cateSub .sub-m a").each(function(){
 		$(this).click(function(){
 			console.log($(this).html());

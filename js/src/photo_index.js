@@ -1,68 +1,80 @@
-(function(){
-	$(".sub_search").click(function(){
-    	$("#p_form").submit();
-    	return false;
-    });
-    $("#photo_search").click(function(){
-        $('.model').fadeIn();
-        return false;
-    });
-})();
-(function(){
+;(function(){
+    /*主入口*/
+    function main(){
+        phptoSearch();
+        PhotoShow();
+    }
+    function phptoSearch(){
+        /*文字搜索提交*/
+        $(".sub_search").click(function(){
+            $("#p_form").submit();
+            return false;
+        });
+        /*图片搜索显示*/
+        $("#photo_search").click(function(){
+            $('.model').fadeIn();
+            return false;
+        });
+    }
+    /*图片上传实时显示*/
+	function PhotoShow(){
 
-    var filep = document.getElementById('filep');
-    filep.onchange = function(){
-        previewImage(filep,'prvid')
-    }
-    function previewImage(file, prvid) {
-    /* file：file控件
-     * prvid: 图片预览容器
-     */
-    var tip = "Expect jpg or png or gif!"; // 设定提示信息
-    var filters = {
-        "jpeg"  : "/9j/4",
-        "gif"   : "R0lGOD",
-        "png"   : "iVBORw"
-    }
-    var prvbox = document.getElementById(prvid);
-    prvbox.innerHTML = "";
-    if (window.FileReader) { // html5方案
-        for (var i=0, f; f = file.files[i]; i++) {
-            var fr = new FileReader();
-            fr.onload = function(e) {
-                var src = e.target.result;
-                if (!validateImg(src)) {
-                    alert(tip)
+        var filep = document.getElementById('filep');
+        filep.onchange = function(){
+            previewImage(filep,'prvid')
+        }
+        function previewImage(file, prvid) {
+        /* file：file控件
+         * prvid: 图片预览容器
+         */
+            var tip = "Expect jpg or png or gif!"; // 设定提示信息
+            var filters = {
+                "jpeg"  : "/9j/4",
+                "gif"   : "R0lGOD",
+                "png"   : "iVBORw"
+            }
+            var prvbox = document.getElementById(prvid);
+            prvbox.innerHTML = "";
+            if (window.FileReader) { // html5方案
+                for (var i=0, f; f = file.files[i]; i++) {
+                    var fr = new FileReader();
+                    fr.onload = function(e) {
+                        var src = e.target.result;
+                        if (!validateImg(src)) {
+                            alert(tip)
+                        } else {
+                            showPrvImg(src);
+                            
+                           
+                        }
+                    }
+                    fr.readAsDataURL(f);
+                }
+            } else { // 降级处理
+                if ( !/\.jpg$|\.png$|\.gif$/i.test(file.value) ) {
+                    alert(tip);
                 } else {
-                    showPrvImg(src);
-                    
-                   
+                    showPrvImg(file.value);
                 }
             }
-            fr.readAsDataURL(f);
-        }
-    } else { // 降级处理
-        if ( !/\.jpg$|\.png$|\.gif$/i.test(file.value) ) {
-            alert(tip);
-        } else {
-            showPrvImg(file.value);
-        }
-    }
- 
-    function validateImg(data) {
-        var pos = data.indexOf(",") + 1;
-        for (var e in filters) {
-            if (data.indexOf(filters[e]) === pos) {
-                return e;
+         
+            function validateImg(data) {
+                var pos = data.indexOf(",") + 1;
+                for (var e in filters) {
+                    if (data.indexOf(filters[e]) === pos) {
+                        return e;
+                    }
+                }
+                return null;
+            }
+         
+            function showPrvImg(src) {
+                var img = document.createElement("img");
+                img.src = src;
+                prvbox.appendChild(img);
             }
         }
-        return null;
     }
- 
-    function showPrvImg(src) {
-        var img = document.createElement("img");
-        img.src = src;
-        prvbox.appendChild(img);
-    }
-}
+    main();
 })();
+    

@@ -42,7 +42,13 @@
     border-bottom: 1px solid #eff1f0;
 }
 .course-list-img{
+    width :200px;
+    height :100px;
 	float: left;
+    overflow: hidden;
+}
+.course-list-img img{
+    width:100%;
 }
 .course-list-cont {
     padding-left: 230px;

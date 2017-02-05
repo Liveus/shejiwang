@@ -146,7 +146,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</div>
 					<div class="body">
 					<a href="show.onework?id=<%=work.getId()%>">
-						<img src="<%=basePath %>/work/pic/<%=new dao.FUserDAO().findByEmail(work.getEmail()).getEmail() %>/<%=work.getPath() %>" alt="" class="fl" width="240" height="135">
+						<img src="<%=basePath %>/work/pic/<%=new dao.FUserDAO().findByEmail(work.getEmail()).getEmail() %>/<%=work.getPath() %>" alt="" class="fl">
 					</a>
 						<div class="">
 							
@@ -191,7 +191,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</div>
 					<div class="body">
 					<a href="show.onework?id=<%=work.getId()%>">
-						<img src="<%=basePath %>/work/pic/<%=work.getPath() %>" alt="" class="fl" width="240" height="135">
+						<img src="<%=basePath %>/work/pic/<%=work.getPath() %>" alt="" class="fl" >
 					</a>
 						<div class="">
 							
@@ -237,7 +237,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</div>
 					<div class="body">
 					<a href="show.groupDetail?groupID=<%=group.getId() %>" >
-						<img src="<%=basePath %>/usergroup/head/<%=group.getPic() %>" alt="" class="fl" width="125" height="125">
+						<img src="<%=basePath %>/usergroup/head/<%=group.getPic() %>" alt="" class="fl" >
 					</a>
 						<div class="group-content-2">
 							<div class="group-joined">
@@ -298,7 +298,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</div>
 					<div class="body">
 					<a href="show.onework?id=<%=work.getId()%>">
-						<img src="<%=basePath %>/work/pic/<%=work.getEmail() %>/<%=work.getPath() %>" alt="" class="fl" width="240" height="135">
+						<img src="<%=basePath %>/work/pic/<%=work.getEmail() %>/<%=work.getPath() %>" alt="" class="fl" >
 					</a>
 						<div class="">
 							
@@ -338,7 +338,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</div>
 					<div class="body">
 					<a href="show.groupDetail?groupID=<%=group.getId() %>" >
-						<img src="<%=basePath %>/usergroup/head/<%=group.getPic() %>" alt="" class="fl" width="125" height="125">
+						<img src="<%=basePath %>/usergroup/head/<%=group.getPic() %>" alt="" class="fl" >
 					</a>
 						<div class="group-content-2">
 							<div class="group-joined">

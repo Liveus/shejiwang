@@ -44,7 +44,8 @@
 	background: #F2F4F6;
 }
 .user-home-contain .body img{
-	height: 125px;
+    width:240px;
+	height: 135px;
 }
 .user-home-contain .body .sub-content{
 	padding-top: 24px;

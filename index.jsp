@@ -570,9 +570,16 @@ String url = request.getQueryString();
 	</div>
 </footer>
 <script src="js/lib/jquery-1.11.3.min.js"></script>
+<script src="js/lib/modernizr.min.js" type="text/javascript"></script>
 <script src="js/lib/flickerplate.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/lib/sweetalert.min.js"></script>
-<script src="js/src/index.js"></script>
+<script>
+	$('.flicker-example').flicker({
+		auto_flick_delay:7,
+	});	
+</script>
+<!-- <script src="js/src/index.js"></script> -->
 <script src="js/src/public.js"></script>
-  </body>
+
+ </body>
 </html>
