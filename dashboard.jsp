@@ -13,7 +13,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <meta content='lab2023' name='author'>
     <meta content='' name='description'>
     <meta content='' name='keywords'>
-    <link href="assets/stylesheets/application-a07755f5.css" rel="stylesheet" type="text/css" />
+    <link href="css/application-a07755f5.css" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/images/favicon.ico" rel="icon" type="image/ico" />
     <link rel="stylesheet" type="text/css" href="css/admun_style.css">
